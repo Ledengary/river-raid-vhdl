@@ -1,0 +1,52 @@
+# VGA
+NET "VGA_HS"        LOC = P87;
+NET "VGA_VS"        LOC = P85;  
+NET "VGA_R[0]"      LOC = P79;
+NET "VGA_R[1]"      LOC = P80;  
+NET "VGA_G[0]"      LOC = P81;
+NET "VGA_G[1]"      LOC = P82; 
+NET "VGA_B[0]"      LOC = P83;
+NET "VGA_B[1]"      LOC = P84;
+
+# dip-switches
+# NET "SW[0]"    LOC = P51;
+# NET "SW[1]"    LOC = P48;
+NET "SW[2]"    LOC = P55;
+NET "SW[3]"    LOC = P56;
+NET "SW[4]"    LOC = P57;
+NET "SW[5]"    LOC = P58;
+NET "SW[6]"    LOC = P66;
+NET "SW[7]"    LOC = P59;
+
+# Push-Buttons
+NET "rightArrow"     LOC = P78;
+NET "leftArrow"     LOC = P75;
+NET "fire"     LOC = P67;
+NET "startGame"     LOC = P74;
+
+NET "CLOCK_24"  		LOC = P50;   # 24MHz on-board clock
+NET "RESET_N"     LOC = p51;  # active-low USER_PB button
+NET "autoPilot"	LOC = p48;
+
+
+NET "ledOut(0)"     LOC = P132;
+NET "ledOut(1)"     LOC = P131;
+NET "ledOut(2)" LOC = p127;
+NET "ledOut(3)" LOC = p126;
+NET "ledOut(4)" LOC = p124;
+NET "ledOut(5)" LOC = p123;
+NET "ledOut(6)" LOC = p121;
+NET "ledOut(7)" LOC = p120;
+
+NET "sevenSegmentEnable(0)"     LOC = P46;
+NET "sevenSegmentEnable(1)"     LOC = P45;
+NET "sevenSegmentEnable(2)"     LOC = P41;
+NET "sevenSegmentEnable(3)"     LOC = P32;
+NET "sevenSegmentOutput(0)"   LOC = P47;
+NET "sevenSegmentOutput(1)"   LOC = P43;
+NET "sevenSegmentOutput(2)"   LOC = P34;
+NET "sevenSegmentOutput(3)"   LOC = P40;
+NET "sevenSegmentOutput(4)"   LOC = P35;
+NET "sevenSegmentOutput(5)"   LOC = P44;
+NET "sevenSegmentOutput(6)"   LOC = P30;
+NET "sevenSegmentOutput(7)"   LOC = P33;
